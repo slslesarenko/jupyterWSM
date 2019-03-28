@@ -25,11 +25,13 @@ Force-Disp curves demonstrate expected behavior of homogeneous DENT specimens (I
 ## Design 2 (Three rigid inclusions)
 This design with three rigid inclusions corresponds to the scaled design from Figure 6 in the paper _"Stochastic"_. The inclusions with diameter 10.46mm are made of stiff VW material. The notch length is 2.64mm
 
-<img src="images/threeincs.png" width="100%" />
+<img src="images/threeincs.PNG" width="100%" />
 
 Video demonstrates that the failure occurs in soft matrix between inclusions
 
+<p>
 <video controls src="videos/cc_dec_test_w24_withinclusions.mp4" width="100%" /> 
+</p>
 
 Digital image correlation (DIC) allows me to find that the maximal strains ($\varepsilon_{xx}$) is observed between inclusions as shown below
 
@@ -46,10 +48,12 @@ The dimensions are scaled down and the final diameter and distances from the edg
 
 Videos below show the failure of these specimens
 
+<p>
 <video controls src="videos/cc_dec_test_w24_withholes.mp4"  width="100%" /> 
-
+</p>
+<p>
 <video controls src="videos/cc_dec_test_w24_withholesandnotches.mp4"  width="100%" /> 
-
+</p>
 As one may see, these specimens can withstand large elongation and the failure in the specimen without notch occurs in the locations corresponding to the numerical predictions. At the same time, due to the high distortion of the speckle pattern and optical aberration of the camera lens, DIC is hard to perform on these specimens. However, to illustrate $\varepsilon_{xx}$ strain field I attached DIC image below. 
 
 <img src="images/twoholesDIC.jpg" width="100%" />
@@ -64,7 +68,9 @@ The coordinates of the inclusions relative to the central point are in [this fil
 
 The video of the experiment shows that the inclusions obviously affect crack propagation, however it is hard to quantitatively describe their contribution for now.
 
+<p>
 <video controls src="videos/cc_dec_test_w24_manyincs.mp4"  width="100%" /> 
+</p>
 
 DIC for relatively small deformation
 
