@@ -1,5 +1,5 @@
 # Preliminary experiments on the hyperelastic composite materials with holes and inclusions
-Date: 2019/03/28
+Date: 2019/03/29
 
 Author: V. Slesarenko
 ## Summary of the experiments 
@@ -15,9 +15,10 @@ Force-Disp curves demonstrate expected behavior of homogeneous DENT specimens (I
 
 <img src="images/homogeneous_LD.png" width="50%" />
 
-<video controls src="videos/cc_dec_test_w24_hom_bignotch.mp4" width="100%" /> 
+<video controls src="videos/cc_dec_test_w24_hom_bignotch.mp4" width="100%" />  <br>
 
-<video controls src="videos/cc_dec_test_w24_hom_smallnotch.mp4" width="100%" /> 
+    
+<video controls src="videos/cc_dec_test_w24_hom_smallnotch.mp4" width="100%" /> <bt>
 
 ## Design 2 (Three rigid inclusions)
 This design with three rigid inclusions corresponds to the scaled design from Figure 6 in the paper _"Stochastic"_. The inclusions with diameter 10.46mm are made of stiff VW material. The notch length is 2.64mm
