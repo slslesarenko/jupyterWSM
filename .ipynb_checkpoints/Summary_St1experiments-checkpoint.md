@@ -9,68 +9,63 @@ I printed several specimens with designs that are based on some numerical and th
 ## Design 1 (DENT2)
 Two homogeneous DENT specimens with notch lengths 3.6 and 7.2 mm. Green area -- soft TangoPlus (TP) material, red -- stiff material (in this case just to fix specimen in the tensile jigs). This design is adopted from the papers _"Stochastic analysis of polymer composites rupture at large deformations modeled by a phase field method"_ (Fig 5) and _"Fracture problems of rubbers: J-integral estimation based upon η factors and an investigation on the strain energy density distribution as a local criterion"_. 
 
-<img src="images/homogen.png">
-
-
-<img src="images/homogen.png" />
-
-
 <img src="images/homogen.png" width="100%" />
 
 Force-Disp curves demonstrate expected behavior of homogeneous DENT specimens (I also checked this on larger specimens). Videos below are sped up.
 
-<img src="images/homogeneous_LD.png" width=50% />
+<img src="images/homogeneous_LD.png" width="50%" />
 
-<video controls src="videos/cc_dec_test_w24_hom_bignotch.mp4" /> 
+<video controls src="videos/cc_dec_test_w24_hom_bignotch.mp4" width="100%" /> 
 
-<video controls src="videos/cc_dec_test_w24_hom_bignotch.mp4"  width=100% /> 
-
-<video controls src="videos/cc_dec_test_w24_hom_smallnotch.mp4"  width=100% /> 
+<video controls src="videos/cc_dec_test_w24_hom_smallnotch.mp4" width="100%" /> 
 
 ## Design 2 (Three rigid inclusions)
 This design with three rigid inclusions corresponds to the scaled design from Figure 6 in the paper _"Stochastic"_. The inclusions with diameter 10.46mm are made of stiff VW material. The notch length is 2.64mm
 
-<img src="images/threeincs.png" width=100% />
+<img src="images/threeincs.png" width="100%" />
 
 Video demonstrates that the failure occurs in soft matrix between inclusions
 
-<video controls src="videos/cc_dec_test_w24_withinclusions.mp4"  width=100% /> 
+<video controls src="videos/cc_dec_test_w24_withinclusions.mp4" width="100%" /> 
 
 Digital image correlation (DIC) allows me to find that the maximal strains ($\varepsilon_{xx}$) is observed between inclusions as shown below
 
-<img src="images/threeincsDIC.jpg" width=100% />
+<img src="images/threeincsDIC.jpg" width="100%" />
 
 ## Design 3 (Two holes)
 This design is based on the following picture
 
-<img src="images/holes_numer.jpg" width=100% />
+<img src="images/holes_numer.jpg" width="100%" />
 
 The dimensions are scaled down and the final diameter and distances from the edges equal to 8mm as shown below. I also tried designs with initial notches and without them. 
 
-<img src="images/Holes.PNG" width=100% />
+<img src="images/Holes.PNG" width="100%" />
 
 Videos below show the failure of these specimens
 
-<video controls src="videos/cc_dec_test_w24_withholes.mp4"  width=100% /> 
+<video controls src="videos/cc_dec_test_w24_withholes.mp4"  width="100%" /> 
 
-<video controls src="videos/cc_dec_test_w24_withholesandnotches.mp4"  width=100% /> 
+<video controls src="videos/cc_dec_test_w24_withholesandnotches.mp4"  width="100%" /> 
 
 As one may see, these specimens can withstand large elongation and the failure in the specimen without notch occurs in the locations corresponding to the numerical predictions. At the same time, due to the high distortion of the speckle pattern and optical aberration of the camera lens, DIC is hard to perform on these specimens. However, to illustrate $\varepsilon_{xx}$ strain field I attached DIC image below. 
 
-<img src="images/twoholesDIC.jpg" width=100% />
+<img src="images/twoholesDIC.jpg" width="100%" />
 
 
 ## Design 4 (DENT specimen with randomly distributed stiff inclusions)
 In the final design I just placed about 50 rigid inclusions (diameter of 1.5mm) in hyperelastic DENT specimen with the same dimensions as in the Design 1 (the notch length here is 6 mm). 
 
-<img src="images/manyincs.PNG" width=100% />
+<img src="images/manyincs.PNG" width="100%" />
 
 The coordinates of the inclusions relative to the central point are in [this file](datafiles/DENT_w24_v6_coords.txt)
 
 The video of the experiment shows that the inclusions obviously affect crack propagation, however it is hard to quantitatively describe their contribution for now.
 
-<video controls src="videos/cc_dec_test_w24_manyincs.mp4"  width=100% /> 
+<video controls src="videos/cc_dec_test_w24_manyincs.mp4"  width="100%" /> 
 
+DIC for relatively small deformation
+
+<img src="images/manyholesDIC.png" width="100%" />
 
 
 ## Comment regarding materials
