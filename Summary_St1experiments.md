@@ -9,6 +9,12 @@ I printed several specimens with designs that are based on some numerical and th
 ## Design 1 (DENT)
 Two homogeneous DENT specimens with notch lengths 3.6 and 7.2 mm. Green area -- soft TangoPlus (TP) material, red -- stiff material (in this case just to fix specimen in the tensile jigs). This design is adopted from the papers _"Stochastic analysis of polymer composites rupture at large deformations modeled by a phase field method"_ (Fig 5) and _"Fracture problems of rubbers: J-integral estimation based upon η factors and an investigation on the strain energy density distribution as a local criterion"_. 
 
+<img src="images/homogen.png">
+
+
+<img src="images/homogen.png" />
+
+
 <img src="images/homogen.png" width=100% />
 
 Force-Disp curves demonstrate expected behavior of homogeneous DENT specimens (I also checked this on larger specimens). Videos below are sped up.
