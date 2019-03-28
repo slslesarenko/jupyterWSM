@@ -15,11 +15,13 @@ Two homogeneous DENT specimens with notch lengths 3.6 and 7.2 mm. Green area -- 
 <img src="images/homogen.png" />
 
 
-<img src="images/homogen.png" width=100% />
+<img src="images/homogen.png" width="100%" />
 
 Force-Disp curves demonstrate expected behavior of homogeneous DENT specimens (I also checked this on larger specimens). Videos below are sped up.
 
 <img src="images/homogeneous_LD.png" width=50% />
+
+<video controls src="videos/cc_dec_test_w24_hom_bignotch.mp4" /> 
 
 <video controls src="videos/cc_dec_test_w24_hom_bignotch.mp4"  width=100% /> 
 
