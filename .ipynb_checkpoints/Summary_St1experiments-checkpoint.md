@@ -1,5 +1,5 @@
 # Preliminary experiments on the hyperelastic composite materials with holes and inclusions
-Date: 2019/03/29
+Date: 2019/03/28
 
 Author: V. Slesarenko
 ## Summary of the experiments 
