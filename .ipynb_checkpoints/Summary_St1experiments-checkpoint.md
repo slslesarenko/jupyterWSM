@@ -18,7 +18,7 @@ Force-Disp curves demonstrate expected behavior of homogeneous DENT specimens (I
 <video controls src="videos/cc_dec_test_w24_hom_bignotch.mp4" width="100%" />  <br>
 
     
-<video controls src="videos/cc_dec_test_w24_hom_smallnotch.mp4" width="100%" /> <bt>
+<video controls src="videos/cc_dec_test_w24_hom_smallnotch.mp4" width="100%" /> <br>
 
 ## Design 2 (Three rigid inclusions)
 This design with three rigid inclusions corresponds to the scaled design from Figure 6 in the paper _"Stochastic"_. The inclusions with diameter 10.46mm are made of stiff VW material. The notch length is 2.64mm
